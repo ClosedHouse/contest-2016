@@ -1,0 +1,41 @@
+
+https://github.com/ClosedHouse
+
+Duch: vic naucit nez soutez a pokusit se vysvetlit jak funkuje nizkourovnove user space
+(komentare v asm)
+
+0) level pro nakopnuti:
+	zkompilovat hello world a zkontrolovat tim, ze backdoor bezi
+
+1) level - ziskat obsah souboru content/secret - exec.asm
+
+2) vypocitani cisla 42 - cryptic assembler - dokud by nesedel sha1 hash 
+	92cfceb39d57d914ed8b14d0e37643de0797ae56 - vystup se musi shodovat - implementacni detail
+
+3) ziskat root heslo
+
+4) bonus level - ziskat heslo uzivatele supervisor do cele site za pomoci systemtap/kpatch odposlechu 
+
+Prostredi:
+
+cool-retro-term - jedine rozhrani pro uzivatele
+		- nemoznost skakat - inkrementalni sifrovani na zaklada predesle splneneho ukolu
+
+znalosti:
+zadne znalosti assembleru
+
+musime jim vysvetlit: netcat, nasm, zaklad shell
+
+rozdistribuovat virtualky s rhel7.
+
+Obnova:
+	skripty co nahraji cele sezeni znova po prihlaseni
+
+Lepsi mtg kde se da vetrat, kde jsou okna, jidlo a asiatky + kafe. Plutonium, neptonium.
+
+Kdo co udela:
+
+hardware + lpol, rhack, fsumsal
+dokuemntace: rhack, mpetlan
+otestovat: vsichni
+vysvetlovat lidem: lpol, rhack, fsumsal, rhack

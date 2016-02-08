@@ -35,7 +35,17 @@ Lepsi mtg kde se da vetrat, kde jsou okna, jidlo a asiatky + kafe. Plutonium, ne
 
 Kdo co udela:
 
-hardware + lpol, rhack, fsumsal
+hardware + lpol, rhack, fsumsal - instalace posledni fedory. cca 10 notebooku
 dokuemntace: rhack, mpetlan
+interface pro komunikaci s uzivatelem: streva - bblaskov
+vysvetlovat lidem: viz kdo pujde prezentovat
 otestovat: vsichni
-vysvetlovat lidem: lpol, rhack, fsumsal, rhack
+
+Kdo pujde prezentovat v den konani:
+rhack - celej den
+rskvaril - ?
+fsumsal - ?
+mpetlan - ?
+lpop - ?
+bblazsov - ?
+tcerna - ?

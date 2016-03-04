@@ -1,7 +1,22 @@
+<?php
+$hints = array(
+    'Prvy hint',
+    'Druhy hint',
+    'Treti hint',
+);
+?>
 <strong>Task 1</strong>
 <br>
 
 This is first task bla bla bla..
+
+<?php if(is_hint()): ?>
+
+    <div class"hint">
+        <?=show_hint()?>
+    </div>
+
+<?php endif; ?>
 
 <br><br>
 <pre>

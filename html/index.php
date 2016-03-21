@@ -72,17 +72,10 @@ if($_POST)
 
 <body>
 
-
-
 <table rules="all">
 <tr>
    <td>
         <h1>Hack me if you can</h1>
-    </td>
-</tr>
-<tr>
-   <td> 
-        <p>Superb game for openhouse!</p>
     </td>
 </tr>
 <tr>

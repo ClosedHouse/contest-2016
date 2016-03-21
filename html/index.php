@@ -48,7 +48,7 @@ if($_POST)
     }
     elseif($_POST['answer'] != 'hint')
     {
-        $error = "This is not the correct answer";
+        $error = "WRONG ANSWER";
     }
 }
 
@@ -83,7 +83,6 @@ if($_POST)
 <tr>
    <td> 
         <p>Superb game for openhouse!</p>
-        <p style="color:red;"><?=$error?></p>
     </td>
 </tr>
 <tr>
@@ -93,6 +92,9 @@ if($_POST)
         ?>
     </td>
 </tr>
+<tr><td>
+	<p style="color:red;"><?=$error?></p>
+</td></td>
 <tr>
     <td>
         <a href="?restart=1">Restart game</a>

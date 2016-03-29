@@ -1,0 +1,8 @@
+Load ai_core.ko module:
+[root@glados x]# insmod ai_core.ko
+
+[root@glados x]# cat /sys/module/ai_core/sections/.bss
+0xffffffffa04a1240
+
+gdb -ex "x/1s 0xffffffffa04a1240" -batch /usr/lib/debug/usr/lib/modules/3.10.0-327.10.1.el7.x86_64/vmlinux /proc/kcore
+OH_424242

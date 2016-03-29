@@ -38,7 +38,19 @@ static void ai_core_periodic(unsigned long not_used)
 
 static void ai_core_weak_point(void)
 {
-	strcpy(buffer, "OH_424242");
+	char tmp_buf[32];
+
+	tmp_buf[0] = 'O';
+	tmp_buf[1] = 'H';
+	tmp_buf[2] = '_';
+	tmp_buf[3] = '4';
+	tmp_buf[4] = '2';
+	tmp_buf[5] = '4';
+	tmp_buf[6] = '2';
+	tmp_buf[7] = '4';
+	tmp_buf[8] = '2';
+	tmp_buf[9] = '\0';
+	strcpy(buffer, tmp_buf);
 }
 
 MODULE_LICENSE("GPL");

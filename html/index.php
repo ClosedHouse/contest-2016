@@ -37,7 +37,7 @@ if(!is_numeric($_SESSION['task'])) $_SESSION['task'] = 1;
 // Answers:
 $answers = array(
     1 => "OH16_B00B15",
-    2 => "defg",
+    2 => "OH16_011110",
 );
 
 if($_POST)

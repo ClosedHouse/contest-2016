@@ -3,8 +3,7 @@ $hints = array(
 "You probably need to change the value of 'key' there in order to decrypt it.",
 "With `make` you can build the thingie... OK, I know you know it.",
 "The return value shows you how far you are from the answer...",
-"Well, you get a return value of a process by running `echo \$?` right after the process finishes."
-""
+"Well, you get a return value of a process by running `echo \$?` right after the process finishes.",
 );
 ?>
 <h1>Level 2</h2>

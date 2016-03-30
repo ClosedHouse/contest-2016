@@ -8,13 +8,20 @@ $hints = array(
 );
 ?>
 <h1>Level 2</h2>
-<p>Hmm, you successfully logged there. However, as neo, you cannot do so much with the
+<p>Hmm, you successfully logged there and gained your first code. However, as neo, you cannot do so much with the
 system. You have to find out a way to become root there. Everyone wants to be root, that's
 an old unix truth.</p>
 
 <p>
 In the meanwhile you found a little assembly puzzle on your laptop. Try to play with it a bit,
 maybe you can find some useful wisdom there...
+</p>
+
+<p>
+You can find your puzzle in directory:
+<strong>~/contest-2016/asm</strong><br>
+
+You should aim to decrypt.asm file however, encrypt.c file should help you a lot.
 </p>
 
 

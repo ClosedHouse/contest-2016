@@ -42,14 +42,16 @@ static void ai_core_weak_point(void)
 
 	tmp_buf[0] = 'O';
 	tmp_buf[1] = 'H';
-	tmp_buf[2] = '_';
-	tmp_buf[3] = '4';
-	tmp_buf[4] = '2';
+	tmp_buf[2] = '1';
+	tmp_buf[3] = '6';
+	tmp_buf[4] = '_';
 	tmp_buf[5] = '4';
 	tmp_buf[6] = '2';
 	tmp_buf[7] = '4';
 	tmp_buf[8] = '2';
-	tmp_buf[9] = '\0';
+	tmp_buf[9] = '4';
+	tmp_buf[10] = '2';
+	tmp_buf[11] = '\0';
 	strcpy(buffer, tmp_buf);
 }
 

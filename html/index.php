@@ -38,6 +38,8 @@ if(!is_numeric($_SESSION['task'])) $_SESSION['task'] = 1;
 $answers = array(
     1 => "OH16_B00B15",
     2 => "OH16_011110",
+    3 => "OH16_00DEAD",
+    3 => "OH16_424242",
 );
 
 if($_POST)

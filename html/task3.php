@@ -17,7 +17,7 @@ in the bushes behind the fortress...</p>
 ~/contest-2016/remote/ and investigate exec.asm file.
 </p>
 
-<?php if(is_hint() && $hints.count() != 0): ?>
+<?php if(is_hint()): ?>
 
     <div class="hint">
         <?=show_hint()?>

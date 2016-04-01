@@ -13,7 +13,7 @@ that netcat can do all that for you...</p>
 <p>FIXME here we need to give him the exec.asm or whatever... And pre-explain that the tea-leaves
 on the desk are the contents of /etc/secrets</p>
 
-<?php if(is_hint() && $hints.count() != 0): ?>
+<?php if(is_hint()): ?>
 
     <div class="hint">
         <?=show_hint()?>

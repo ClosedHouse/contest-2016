@@ -1,0 +1,2 @@
+NOTE: When links is used, then 'Aggresive cache' _MUST_ be disabled!
+When aggresive cache is enabled, then hints will not work as expected.

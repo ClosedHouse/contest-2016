@@ -80,6 +80,9 @@ if($_POST)
         <h1>Hack me if you can</h1>
     </td>
 </tr>
+<tr><td>
+	<p style="color:red;"><?=$error?></p>
+</td></tr>
 <tr>
     <td>
         <?php
@@ -89,7 +92,7 @@ if($_POST)
 </tr>
 <tr><td>
 	<p style="color:red;"><?=$error?></p>
-</td></td>
+</td></tr>
 <tr>
     <td>
         <a href="?restart=1">Restart game</a>

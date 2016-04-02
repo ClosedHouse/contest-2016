@@ -22,9 +22,8 @@ Look for codes carefully.<br/>
 Put the codes into <strong>Code</strong> field below. You also use <strong>hint</strong> as a code, if you need some help.
 </p>
 <p>
-First of all, you need to connect to AI server and see what we can do...
-Try to search for /etc/secrects file.</p>
-<br/>Switch terminal and type: <br/>
+First of all, you need to connect to AI server and see what we can do... <br/>
+Switch terminal and type: <br/>
 <code>
 $ ssh neo@glados
 </code>

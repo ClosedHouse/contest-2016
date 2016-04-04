@@ -3,7 +3,8 @@ $hints = array(
 "You probably need to change the value of 'key' there in order to decrypt it.",
 "With `make` you can build the thingie... OK, I know you know it.",
 "The return code shows you how far you are from the answer...",
-"Well, you get a return code of a process.",
+"Well, you get a return code of a process. And now.. maybe you should edit decrypt.asm file?",
+"Substraction is way how to do it. Just do it!",
 );
 ?>
 <h1>Level 2</h2>
@@ -21,7 +22,8 @@ maybe you can find some useful wisdom there... Always remember the codes and key
 You can find your puzzle in directory:
 <strong>~/contest-2016/task2</strong><br>
 
-You should aim to decrypt.asm file. What is happen here is not that inmportant as return code of process.
+You should aim to decrypt.asm file. What is happen here is not that inmportant as return code of process.<br>
+You can always compile this file by `make` command.
 </p>
 
 <p>NOTE: You must be logged out from glados machine for continue</p>

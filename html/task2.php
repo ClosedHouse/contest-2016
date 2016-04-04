@@ -17,7 +17,6 @@ In the meanwhile you found a little assembly puzzle on your laptop. Try to play 
 maybe you can find some useful wisdom there... Always remember the codes and keys. You might need them later.
 </p>
 
-
 <p>
 You can find your puzzle in directory:
 <strong>~/contest-2016/task2</strong><br>
@@ -25,8 +24,7 @@ You can find your puzzle in directory:
 You should aim to decrypt.asm file. What is happen here is not that inmportant as return code of process.<br>
 You can always compile this file by `make` command.
 </p>
-
-<p>NOTE: You must be logged out from glados machine for continue.</p>
+<p>Don't panic when you see some garbage on the screen. It will change as you will progress.</p>
 
 <?php if(is_hint()): ?>
 

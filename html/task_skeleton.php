@@ -7,7 +7,7 @@ $hints = array(
 <p>This is second task, bla bla bla</p>
 
 
-<?php if(is_hint() && $hints.count() != 0): ?>
+<?php if(is_hint()): ?>
 
     <div class="hint">
         <?=show_hint()?>

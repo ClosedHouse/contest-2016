@@ -1,20 +1,16 @@
 <?php
 $hints = array(
-"You should never forget the universal answer the Wide Thought has given to you... You never know where you can use it.",
-"I don't know what to advise you now... :-(",
+"`lsmod` and `grep` could help you with module listing",
+"You can find the addresses of module sections in /sys/module/<modulename>/sections/*<br/>You could be interested in stack or data.",
+"Running GDB against /usr/lib/debug/usr/lib/modules/3.10.0-327.10.1.el7.x86_64/vmlinux and /proc/kcore reveals the kernel space for you!",
+"By 'x/1s 0xfff4123456789012' you can examine what lies in memory. Use 'help x' in gdb for more info.",
 );
 ?>
 <h1>Level 5</h2>
-<p>Great! You have obtained the contents of the /etc/secrets file! Damn, it's encrypted again...</p>
-
-<p>Let's use the shining power of the AI machine itself for decrypting it! Rather than torturing
-your laptop's power efficient CPU...</p>
-
-<p>Use the sse.asm file and try to force the AI machine to solve the problem for you. Don't forget
-to edit the necessary data in it! Who knows what's encrypted there, it might be even the root password
-of the machine...</p>
-
-<p>FIXME the sse.asm here</p>
+<p>Cool! Now you have the full control over The AI machine! However, to finish your strike,
+you should break into its inner structures and understand its character a bit. I'll advise
+you that its core part is loaded as a kernel module. Try to find the module, debug it a bit
+and obtain the last piece of information you need.
 
 <?php if(is_hint() && $hints.count() != 0): ?>
 

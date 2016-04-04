@@ -4,6 +4,7 @@ $hints = array(
 "With `make` you can build the thingie... OK, I know you know it.",
 "The return value shows you how far you are from the answer...",
 "Well, you get a return value of a process by running `echo \$?` right after the process finishes.",
+"The encrypt.c file chould help you a bit in case you want to find out the algorithm."
 );
 ?>
 <h1>Level 2</h2>
@@ -13,14 +14,14 @@ an old unix truth.</p>
 
 <p>
 In the meanwhile you found a little assembly puzzle on your laptop. Try to play with it a bit,
-maybe you can find some useful wisdom there...
+maybe you can find some useful wisdom there... Always remember the codes and keys. You might need them later.
 </p>
 
 <p>
 You can find your puzzle in directory:
 <strong>~/contest-2016/asm</strong><br>
 
-You should aim to decrypt.asm file however, encrypt.c file should help you a lot.
+You should aim to decrypt.asm file.
 </p>
 
 

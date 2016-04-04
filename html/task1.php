@@ -1,6 +1,6 @@
 <?php
 $hints = array(
-"Do you really need hints in the first level? Okey, hope nobody sees that... <br/>Your old password to that machine was 'rabbit'."
+"Need a hint? Well, hope nobody sees that... ;-)<br/>Your password to that machine was 'rabbit'."
 );
 ?>
 <h1>Level 1</h1>
@@ -8,10 +8,9 @@ $hints = array(
 "Look at you, hacker: a pathetic creature of meat and bone, panting and sweating as you run through my corridors. How can you challenge a perfect, immortal machine?"
 </p>
 <p>
-Welcome hacker! You were challanged by an AI which prepared some obstickles to you.
+Welcome hacker! You were challanged by an AI which prepared some obstackles to you.
 You must pass some tests and prove that you are better than the AI. In order to gain
-control over <em>it</em>, you have to get access to its main database which contains all its
-knowledge.
+control over <em>it</em>, you have to get an access to all its knowledge.
 </p>
 
 <h2>How to beat this game?</h2>
@@ -21,6 +20,7 @@ Look for codes carefully.<br/>
 
 Put the codes into <strong>Code</strong> field below. You also use <strong>hint</strong> as a code, if you need some help.
 </p>
+<p>Except of this window you have another one accessible via TMUX. On the local filesystem, there are some source codes you might need.</p>
 <p>
 First of all, you need to connect to AI server and see what we can do... <br/>
 Switch terminal and type: <br/>

@@ -1,15 +1,11 @@
 <?php
 $hints = array(
+"Do you really need hints in the first level? Okey, hope nobody sees that... <br/>Your old password to that machine was 'rabbit'."
 );
 ?>
-<h1>Congratulations!</h2>
+<h1>Level 2</h2>
+<p>This is second task, bla bla bla</p>
 
-<p>You got there and took over the nasty AI machine! The world order is restored back again (well, at least a bit),
-no machines should ever rule over humans...</p>
-
-<h1>THE END.</h1>
-
-<p>If you enjoyed this game, please rate us in the survey!</p>
 
 <?php if(is_hint() && $hints.count() != 0): ?>
 

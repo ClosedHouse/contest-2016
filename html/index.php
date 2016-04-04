@@ -12,27 +12,18 @@ if($_GET['restart'])
 function show_hint()
 {
     global $hints;
-    if($_POST['answer'] == 'hint')
+
+    for($i = 0; $i <= $_SESSION['hint'][$_SESSION['task']]; $i++)
     {
-        if(!is_numeric($_SESSION['hint'][$_SESSION['task']])) $_SESSION['hint'][$_SESSION['task']] = 0;
-
-        for($i = 0; $i <= $_SESSION['hint'][$_SESSION['task']]; $i++)
-        {
-            echo '<strong>Hint #'.($i+1).'</strong><br>';
-            echo $hints[$i].'<br>';
-        }
-
-        $_SESSION['hint'][$_SESSION['task']]++;
-        if($_SESSION['hint'][$_SESSION['task']] > (count($hints)-1))
-        {
-            $_SESSION['hint'][$_SESSION['task']] = count($hints) - 1;
-        }
+        if(!$hints[$i]) break;
+        echo '<strong>Hint #'.($i+1).'</strong><br>';
+        echo $hints[$i].'<br>';
     }
 }
 
 function is_hint()
 {
-    return $_POST['answer'] == 'hint' ? TRUE : FALSE;
+    return is_numeric($_SESSION['hint'][$_SESSION['task']]) ? TRUE : FALSE;
 }
 
 if(!is_numeric($_SESSION['task'])) $_SESSION['task'] = 1;
@@ -53,8 +44,24 @@ if($_POST)
     }
     elseif($_POST['answer'] != 'hint')
     {
-        $error = "WRONG ANSWER";
+        $_SESSION['error'] = "WRONG ANSWER";
     }
+    elseif($_POST['answer'] == 'hint')
+    {
+        if(!is_numeric($_SESSION['hint'][$_SESSION['task']]))
+        {
+            $_SESSION['hint'][$_SESSION['task']] = 0;
+        }
+        else
+        {
+            $_SESSION['hint'][$_SESSION['task']]++;
+        }
+    }
+
+    # Workarounds for caching. Thank you links!
+    $hash = md5(time().mt_rand(0, 100));
+    header("Location: ?cache=$hash");
+    exit();
 }
 
 ?>
@@ -94,7 +101,7 @@ if($_POST)
     </td>
 </tr>
 <tr><td>
-	<p style="color:red;"><?=$error?></p>
+	<p style="color:red;"><?=$_SESSION['error']?></p>
 </td></tr>
 <tr>
     <td>
@@ -105,3 +112,6 @@ if($_POST)
 
 </body>
 </html>
+<?php
+$_SESSION['error'] = '';
+?>

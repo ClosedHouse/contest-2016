@@ -19,7 +19,7 @@ Craft the sse.asm file to make it decrypt the encrypted content and send it to t
 You find it again in <strong>~/contest-2016/asm</strong><br>
 </p>
 
-<?php if(is_hint() && $hints.count() != 0): ?>
+<?php if(is_hint()): ?>
 
     <div class="hint">
         <?=show_hint()?>

@@ -12,7 +12,7 @@ you should break into its inner structures and understand its character a bit. I
 you that its core part is loaded as a kernel module. Try to find the module, debug it a bit
 and obtain the last piece of information you need.
 
-<?php if(is_hint() && $hints.count() != 0): ?>
+<?php if(is_hint()): ?>
 
     <div class="hint">
         <?=show_hint()?>

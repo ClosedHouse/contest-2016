@@ -11,7 +11,7 @@ no machines should ever rule over humans...</p>
 
 <p>If you enjoyed this game, please rate us in the survey!</p>
 
-<?php if(is_hint() && $hints.count() != 0): ?>
+<?php if(is_hint()): ?>
 
     <div class="hint">
         <?=show_hint()?>

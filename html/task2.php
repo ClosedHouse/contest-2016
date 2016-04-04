@@ -3,8 +3,7 @@ $hints = array(
 "You probably need to change the value of 'key' there in order to decrypt it.",
 "With `make` you can build the thingie... OK, I know you know it.",
 "The return code shows you how far you are from the answer...",
-"Well, you get a return value of a process by running `echo \$?` right after the process finishes.",
-"The encrypt.c file chould help you a bit in case you want to find out how the puzzle was created."
+"Well, you get a return code of a process.",
 );
 ?>
 <h1>Level 2</h2>
@@ -17,13 +16,15 @@ In the meanwhile you found a little assembly puzzle on your laptop. Try to play 
 maybe you can find some useful wisdom there... Always remember the codes and keys. You might need them later.
 </p>
 
+
 <p>
 You can find your puzzle in directory:
-<strong>~/contest-2016/asm</strong><br>
+<strong>~/contest-2016/task2</strong><br>
 
-You should aim to decrypt.asm file.
+You should aim to decrypt.asm file. What is happen here is not that inmportant as return code of process.
 </p>
 
+<p>NOTE: You must be logged out from glados machine for continue</p>
 
 <?php if(is_hint()): ?>
 

@@ -21,6 +21,8 @@ level 3 - hint RTFM - zmenit na man nmap -> dalsi hint port range
 level 3 - zminit ze je vyplej icmp -Pn 
 level 3 - nejednoznacne hinty
 [MODIFIED] level 3 - kompilace exec.asm - pridat do makefile jak se kompiluje
+		- zmenena predchozi blbost... tohle ma byt bytecode! Ne elf binarka!
+		- presunuto do task3. 
 level 3 - vic zminit ze si uzivatel ma zapomatovat vsechno
 
 level 4 - zminit ze klic rozkopirovat do celeho registru

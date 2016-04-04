@@ -1,6 +1,6 @@
 <?php
 $hints = array(
-"You can use the netcat (nc) tool for port scanning... nothing will be bad if you use nmap.",
+"You can use the netcat (nc command) tool for port scanning... nothing will be bad if you use nmap.",
 "I know nobody's able to remember all the command line switches of all the unix tools, but... <br/><strong>RTFM!</strong> ;-)",
 "Well, if you really insist on that... What about `nc -zv glados 1024-12345` or `nmap glados`?",
 "You can use netcat for feeding remote network services with some stuff.",
@@ -18,7 +18,7 @@ received from an open network port. What if Glados suffers from it too? Anyway, 
 scan is always a good point to start.</p>
 
 <p>After scan you may have a look at directory:<br>
-~/contest-2016/asm/ and investigate the exec.asm file.
+~/contest-2016/task3/ and investigate the exec.asm file.
 </p>
 
 <?php if(is_hint()): ?>

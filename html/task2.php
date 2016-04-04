@@ -26,7 +26,7 @@ You should aim to decrypt.asm file. What is happen here is not that inmportant a
 You can always compile this file by `make` command.
 </p>
 
-<p>NOTE: You must be logged out from glados machine for continue</p>
+<p>NOTE: You must be logged out from glados machine for continue.</p>
 
 <?php if(is_hint()): ?>
 

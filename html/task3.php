@@ -8,7 +8,9 @@ $hints = array(
 );
 ?>
 <h1>Level 3</h2>
-<p>Well, how to deal with Glados' challenge?</p>
+<p>Good. You are in next level!</p>
+<p>Do you remember magic number which were used as encryption code in previous level? You should save this number for later use.</p>
+<p>Well, how to deal with another Glados' challenge?</p>
 <p>As an IT expert, you know very well that usually machines are not that perfect
 as they seem to be... What if there's also some backdoor? Some narrow pipe, hidden
 in the bushes behind the fortress...</p>

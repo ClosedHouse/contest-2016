@@ -8,21 +8,21 @@ $hints = array(
 "Look at you, hacker: a pathetic creature of meat and bone, panting and sweating as you run through my corridors. How can you challenge a perfect, immortal machine?"
 </p>
 <p>
-Welcome hacker! You were challanged by an AI which prepared some obstackles to you.
-You must pass some tests and prove that you are better than the AI. In order to gain
-control over <em>it</em>, you have to get an access to all its knowledge.
+Welcome hacker! You were challanged by Glados which prepared some obstacles to you.
+You have to fight Glados, pass some tests and prove that you are better than its AI.
+In order to gain control over <em>it</em>, you have to get an access to all its knowledge.
 </p>
 
 <h2>How to beat this game?</h2>
 <p>
-Game consists of several levels. In each level, you need to get an access code to the next level. The codes are in a format like "OH16_234567".
-Look for codes carefully.<br/>
+Game consists of several levels. In each level, you need to get an access code to the next level. The level codes are in a format like "OH16_234567".
+Make sure you won't miss any of the level codes, but also keep all the other information carefully, since it might be useful later.<br/>
 
 Put the codes into <strong>Code</strong> field below. You also use <strong>hint</strong> as a code, if you need some help.
 </p>
 <p>Except of this window you have another one accessible via TMUX. On the local filesystem, there are some source codes you might need.</p>
 <p>
-First of all, you need to connect to AI server and see what we can do... <br/>
+First of all, you need to connect to Glados and see what we can do... <br/>
 Switch terminal and type: <br/>
 <code>
 $ ssh neo@glados

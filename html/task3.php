@@ -8,16 +8,17 @@ $hints = array(
 );
 ?>
 <h1>Level 3</h2>
-<p>Well, how to deal with the AI?</p>
+<p>Well, how to deal with Glados' challenge?</p>
 <p>As an IT expert, you know very well that usually machines are not that perfect
 as they seem to be... What if there's also some backdoor? Some narrow pipe, hidden
 in the bushes behind the fortress...</p>
 
 <p>You vaguely remember once there was a famous backdoor that was executing bytecode
-received from an open network port. Anyway, a port scan is always a good point to start.</p>
+received from an open network port. What if Glados suffers from it too? Anyway, a port
+scan is always a good point to start.</p>
 
 <p>After scan you may have a look at directory:<br>
-~/contest-2016/remote/ and investigate the exec.asm file.
+~/contest-2016/asm/ and investigate the exec.asm file.
 </p>
 
 <?php if(is_hint()): ?>

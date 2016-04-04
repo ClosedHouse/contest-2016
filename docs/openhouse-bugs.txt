@@ -1,26 +1,26 @@
 rozhazet po jednotlivych tascich!!
-level 1 - obstackles - bez k
+[MODIFIED] level 1 - obstackles - bez k
 level 1 - heslo s kralikem - upozornit vic na kralika
-level 1 - viz zduraznit odhlasit se
-level 1 - sbirat vic kodu
+[MODIFIED] level 1 - viz zduraznit odhlasit se
+[MODIFIED] level 1 - sbirat vic kodu
 
 level 2 - lepsi pribeh!
 level 2 - vic vysvetlit proc je tam challage - odebrat zminku o rootu
 level 2 - nastavit shell co ukazuje exit kody
 level 2 - vic vyjasnit ukol (odecitani a tak).
-level 2 - return value zmenit na return code
+[MODIFIED] level 2 - return value zmenit na return code
 level 2 - ignorovat vystup - zduraznit
 level 2 - ignore output, viz zduraznit ze encript.c je jen inspirace
 
-level 3 - spatnej adresar /remote/
-level 3 - neni jasne, co se ma scanovat - glados!
+[MODIFIED] level 3 - spatnej adresar /remote/
+[MODIFIED] level 3 - neni jasne, co se ma scanovat - glados!
 level 3 - odebrat zminku o nc
 level 3 - vypsat vsechny porty k parametru nmapu - pridat do hintu
 level 3 - hledany port se nachazi v rozmezi 100 portu - napoveda: dat tam hint na nmap | grep open
 level 3 - hint RTFM - zmenit na man nmap -> dalsi hint port range
 level 3 - zminit ze je vyplej icmp -Pn 
 level 3 - nejednoznacne hinty
-level 3 - kompilace exec.asm - pridat do makefile jak se kompiluje
+[MODIFIED] level 3 - kompilace exec.asm - pridat do makefile jak se kompiluje
 level 3 - vic zminit ze si uzivatel ma zapomatovat vsechno
 
 level 4 - zminit ze klic rozkopirovat do celeho registru

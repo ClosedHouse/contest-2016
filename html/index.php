@@ -16,8 +16,11 @@ function show_hint()
     {
         if(!is_numeric($_SESSION['hint'][$_SESSION['task']])) $_SESSION['hint'][$_SESSION['task']] = 0;
 
-        echo '<strong>Hint #'.($_SESSION['hint'][$_SESSION['task']]+1).'</strong><br>';
-        echo $hints[$_SESSION['hint'][$_SESSION['task']]];
+        for($i = 0; $i <= $_SESSION['hint'][$_SESSION['task']]; $i++)
+        {
+            echo '<strong>Hint #'.($i+1).'</strong><br>';
+            echo $hints[$i].'<br>';
+        }
 
         $_SESSION['hint'][$_SESSION['task']]++;
         if($_SESSION['hint'][$_SESSION['task']] > (count($hints)-1))

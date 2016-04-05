@@ -21,7 +21,7 @@ maybe you can find some useful wisdom there... Always remember the codes and key
 You can find your puzzle in directory:
 <strong>~/contest-2016/task2</strong><br>
 
-You should aim to decrypt.asm file. What is happen here is not that inmportant as return code of process.<br>Your shell is prepared for this situation so... don't hesitate and use this advantage!<br>
+You should aim to decrypt.asm file. What happens here is not that important as a return code of the process.<br>Your shell is prepared for this situation so... don't hesitate and use this advantage!<br>
 You can always compile this file by `make` command.
 </p>
 <p>Don't panic when you see some garbage on the screen. It will change as you will progress.</p>

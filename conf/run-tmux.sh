@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SESSION=OH16
-DEF_DIR=/tmp
+DEF_DIR=~/contest-2016
 LINKS="links http://localhost:8080/"
 
 cat > ~/.bashrc << "EOF"

@@ -13,7 +13,7 @@ $hints = array(
 );
 ?>
 <h1>Level 5</h2>
-<p>Cool! Now you have the full control over The glados machine! Well. Almost. To finish your strike,
+<p>Cool! Now you have the full control over the glados machine! Well. Almost. To finish your strike,
 you should break into its inner structures and understand its character a bit. I'll advise
 you that its core part is loaded as a kernel module. Try to find the module, debug it a bit
 and obtain the last piece of information you need.</p>
@@ -21,7 +21,7 @@ and obtain the last piece of information you need.</p>
 You should aim to find glados core module, look at memory layout of this module and then debug it with gdb.
 </p>
 <p>
-This level can be little bit rought so don't hesitate and use hints. They are here for you brave hacker.
+This level can be a little bit rought so don't hesitate and use hints. They are here for you, brave hacker.
 </p>
 <?php if(is_hint()): ?>
 

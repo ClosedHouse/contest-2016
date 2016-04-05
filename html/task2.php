@@ -25,6 +25,7 @@ You should aim to decrypt.asm file. What happens here is not that important as a
 You can always compile this file by `make` command.
 </p>
 <p>Don't panic when you see some garbage on the screen. It will change as you will progress.</p>
+<p>If your terminal shows only garbage after running the decrypt program, you can easily recover from that by typing `reset`.</p>
 
 <?php if(is_hint()): ?>
 

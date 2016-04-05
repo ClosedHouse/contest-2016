@@ -3,7 +3,7 @@ $hints = array(
 "The code used for encryption is 42.",
 "I don't know what I can advise to you now... :-(",
 "What about printf?",
-"`printf "%x\n" 42`",
+"`printf \"%x\n\" 42`",
 );
 ?>
 <h1>Level 4</h2>

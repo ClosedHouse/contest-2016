@@ -11,7 +11,7 @@ static struct timer_list ai_core_periodic_val;
 static char buffer[32];
 static int __init ai_core_init(void)
 {
-	printk(KERN_NOTICE "AI GlaDOS module started successfully.");
+	printk(KERN_NOTICE "glados_core: AI GlaDOS module started successfully.");
 
 	init_timer(&ai_core_periodic_val);
 	ai_core_periodic_val.expires = jiffies + 10000;

@@ -1,4 +1,4 @@
-obj-m := ai_core.o
+obj-m := glados_core.o
 
 KDIR  := /lib/modules/$(shell uname -r)/build
 PWD   := $(shell pwd)

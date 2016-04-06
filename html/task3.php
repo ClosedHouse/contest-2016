@@ -25,7 +25,7 @@ scan is always a good point to start.</p>
 ~/contest-2016/task3/ and investigate the exec.asm file.
 File contains remote exploit which will reveal some secrets to you.
 You must compile this file and send it to the port you found.<br>
-If you are really curios hacker, you should take a look at exec.asm file content.
+If you are really curios hacker, you could take a look at exec.asm file content.
 </p>
 
 <?php if(is_hint()): ?>

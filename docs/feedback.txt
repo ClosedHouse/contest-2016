@@ -1,0 +1,19 @@
+
+15:32 <muhahaha> Hi Meat. Did you enjoyed our hackmeifyoucan game? Do you thing that game were hard? Because people had issues to 
+              complete the game.
+15:32 <muhahaha> Every feedback is welcome :).
+15:33 <meat> I think you should have made it more clear that folks weren't expected to solve it without help :) maybe ... put 
+              a timer in there and force people to take hints every couple of minutes
+15:33 <meat> it was very challenging
+15:33 <meat> and most 'newbies' have very little chance to solve it
+15:33 <meat> i mean, i'm not a newbie, but i don't know shit about low level stuff
+15:33 <meat> and there was a lot of tools and concepts needed to solve
+15:34 <meat> once you told me 'hints' were a critical part of the game, then... it made since
+15:34 <meat> but still i felt guilty
+15:34 <meat> haha
+15:34 <meat> like i was cheating
+15:34 <meat> but if you said from the very beginning... YOU WONT SOLVE THIS, USE HINTS ... or force people to use the hints... 
+              like i mentioned above for example, it could make the experience more fun
+15:34 <meat> maybe you could also provide a simpler version
+15:35 <meat> so for experienced people who really wanted to challenge themselves, give them that one
+15:35 <meat> otherwise, just reduce it down to 3 levels or something

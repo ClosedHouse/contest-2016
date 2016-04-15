@@ -1,0 +1,41 @@
+Co bylo dobre:
+	- ceny
+	- hiring kartickama
+	- rozhrani - cool-retro-term
+	- holky nahanecky - reklama vsude vyvesena
+		(vyhoda toho ze jsme meli prizemi!?)
+	- bylo porad plno
+	- lidi se nebali prijit do mistnosti
+	- bylo to zajimave a muzou si to rict po 30 minutach a ne tam sedet jak kreteni hodinu
+	- vypadalo to zive! Nikdo nechcipal VS cekani ve fronte :(
+	- snadno se vracelo ke spadene session
+	- ...
+
+Co bylo spatne:
+	- Robert Hack
+	- mala mistnost
+	- malo notebooku
+	- vzdy plna mistnost :(.
+	- prilis zdlouhave - reseni: zobrazovat hint po nejake dobe
+	- moc dlouha hra - lze zkratit - vic masovka - na 30 minut max. - kvalita ci kvantita?
+	- moc sifrovacich levlu - je to jak v GTA kdy musis jezdit pres cele mesto pro ukol a zpet nekoho zavrazdit
+
+Poznamka pro priste:
+	- vic booku priste
+	- vic tocit lidi
+	- vetsi mistnost
+	- udelat tracking casu a hintu - brat email a delat vysledkovou listinu
+	- dodelat priste skript na cisteni - openstack vse ve virtualizaci - spis tocit virtualky
+	- 10 booku max
+	- udelat interni run pred open house - tyden ci 14 dnu predem
+	- interaktivni perl skript co lidi bude navadet
+	- zmenit vzhled cool retro termu na pristi rok
+	- snizit celou uroven hry pro blbky
+
+Dalsi rok (obecne hackerske praktiky - edukativni):
+	- nastartovat spadenej terminal a nebo to cele zablokovat
+	- nechat neco zdechnout a najit kod do dalsiho levelu
+	- sniffovani trafficu / replay trafficu odposlouchavani irc/cokoli komunikace
+	- derava suid binarka s neosetrenym vstupem - skoncime v kernelu! :D - kuchani elf souboru
+	- kernel modul s proc rozhranim, posle se kod a masina umre
+	- rozhazet vic ukolu

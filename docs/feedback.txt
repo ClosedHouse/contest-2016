@@ -17,3 +17,13 @@
 15:34 <meat> maybe you could also provide a simpler version
 15:35 <meat> so for experienced people who really wanted to challenge themselves, give them that one
 15:35 <meat> otherwise, just reduce it down to 3 levels or something
+...
+15:36 <meat> it was amazing though
+15:38 <meat> I think to you should figure a way to package it so it could be run on anyone's laptop; for example, if HR were 
+              to go to a conference they could just set-up a laptop and let people try it and those who solve it with fewest 
+              hint (you'd need to track that) and perhaps in the shortest time (also track that) we could give bigger prizes 
+              and try to hire :)
+15:38 <meat> maybe enable a mode where everyone who wants to play would need to add an email address as well to 'start'
+15:38 <meat> but i would talk with HC about that... i think its a very nice game
+15:39 <meat> could attract a lot of attention
+
